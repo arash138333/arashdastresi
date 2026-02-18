@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import "./slide.css";
+@import "./category.css";
+@import "./mojood.css";
+@import "./foroosh.css";
+@import "./mahboob.css";
+@import "./maghale.css";
+@import "./customers.css"; 
+
+@font-face {
+    font-family: shabnam;
+    src: url(../fonts/Shabnam.eot);
+    src: url(../fonts/Shabnam.eot);
+    src: url(../fonts/Shabnam.woff);
+    src: url(../fonts/Shabnam.woff2);
+}
+@theme{
+    --font-shabnam:shabnam;
+}
+
+
+html,body{
+    scroll-behavior: smooth;
+    
+  }
+
